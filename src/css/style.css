@@ -1,0 +1,32 @@
+.parallax {
+  background:url(../assets/images/fondo.jpeg) no-repeat center/cover;
+    height: 100%; 
+    background-attachment: fixed;
+  }
+  
+.parallax1 {
+ background: url(../assets/images/5.jpg)  center/cover;
+    height: 100%; 
+    background-attachment: fixed;
+  }
+  
+
+  .animated-button {
+    margin-top: 100px;
+    margin-right: auto;
+    border: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 10px 30px;
+    border-radius: auto;
+    padding: auto;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .animated-button:hover {
+    color: rgb(102, 9, 9);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
+  
